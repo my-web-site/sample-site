@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Computers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+            padding:0px;
+        }
+        #section1{
+            
+            background-size:cover;
+            background-color:#1c1a1a;
+        }
+        #section1 .tint{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 0, 0, 0.8);
+            padding: 0.5% 1%;
+        }
+        #section1 .br-container{
+            color:white;
+        }
+        #section1 .br-container a{
+            color: white;
+        }
+        #section2{
+            background-color:whitesmoke;
+        }
+        #section5{
+            padding: 5% 10%;
+            background-color:lightgray;
+        }
+        .fab{
+            font-size: 2em;
+            margin: 5px 10px;
+        }
+        .fas{
+            font-size: 2em;
+        }
+        .top-arrow{
+            position: fixed;
+            bottom:10px;
+            right: 10px;
+            display:none;
+        }    
+        .top-disp{
+            display: block;
+        }
+        @media screen and (min-width:1048px) {
+            #section4 .input-group{
+                    margin-left:150px;
+                 }     
+        }
+        #section5 .row i:hover{
+        color:black;
+    }
+    #top-btn{
+        border-radius: 50%;
+    }
+    </style>
+</head>
+<body>
+    <div class="btn btn-primary top-arrow" id="top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <section id="section1">
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark mx-3" style="font-size: large;">
+                <a class="navbar-brand" href="#" style="font:2em oblique;">Nice Computers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">home</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./services.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          <div class="br-container mt-5 pt-5 mx-4">
+               <a href="./home.html">home</a>/about
+          </div>
+        </div>  
+    </section>
+    <section class="p-5" id="section2">
+        <div class="container">
+            <div class="row mt-sm-5">
+                <div class="col-sm-5">
+                    <img src="images/lecturer.jpg" alt="" style="width:50%;margin-left: 100px;margin-top: 50px;"><br><br>
+                </div>
+                <div class="col-sm-7">
+                    <h3 class="font-weight-bold text-center">About Us</h3>
+                    <hr style="border:solid 1px gray;">
+                    <h4 class="font-weight-bold" style="line-height: 1.5;">Arun Sir</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur odit corrupti quasi debitis voluptatibus unde minima consectetur, alias quos, quibusdam quas consequatur laborum illum, id neque dignissimos fuga ipsa!
+                        Vitae non amet ipsum veniam alias ut? Officia earum ab nostrum exercitationem ad, pariatur maxime velit architecto dolorum excepturi et soluta illum! Exercitationem quas esse perferendis eaque voluptatem error dolore.<br/>
+                    </p>
+                    <p>
+                        <h3 class="font-weight-bold text-center">Our Moto</h3>
+                         <hr style="border:solid 1px gray;">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed voluptatum consectetur dolore sapiente suscipit consequuntur pariatur tempora, recusandae cumque nesciunt perferendis, vitae corrupti aspernatur ab! Inventore quasi placeat dolore.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section4" class="p-5 my-5">
+        <div class="container text-center">
+            <h3>Register to my website</h3>
+            <hr style="border:solid 1px gray; width: 400px;"><br><br>
+            <div clss="row  p-3">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Your e-mail address">
+                    <div class="input-group-append">
+                      <div class="btn btn-primary">Subscribe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp" ></i>
+                    <i class="fab fa-facebook" ></i>
+                    <i class="fab fa-twitter" ></i>
+                    <i class="fab fa-instagram" ></i>
+                    <i class="fab fa-linkedin" ></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <hr style="border-bottom: 1px solid gray;">
+            &copy;Copy rights reserved  <br>
+            Nice Computers
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY>360)
+              document.getElementById("top-btn").classList.add("top-disp");
+            if(window.scrollY<360)
+              document.getElementById("top-btn").classList.remove("top-disp");  
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

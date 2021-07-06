@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Computers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0px;
+        padding:0px;
+    }
+    #section1{
+
+        background-size:cover;
+        background-color:#1c1a1a;
+    }
+    #section1 .tint{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(3, 0, 0, 0.8);
+        padding: 0.5% 1%;
+    }
+    #section1 .br-container{
+        color:white;
+    }
+    #section1 .br-container a{
+        color: white;
+    }
+    #section2{
+        padding:5% 10% ;
+    }
+    #section2 ul li{
+        padding: 8px;
+        background-color: rgb(195, 217, 247);
+        margin:2px;
+    }
+    #section5{
+        padding: 5% 10%;
+        background-color:lightgray;
+    }
+    .fab{
+        font-size: 2em;
+        margin: 5px 10px;
+    }
+    .fas{
+        font-size: 2em;
+    }
+    .top-arrow{
+        position: fixed;
+        bottom:10px;
+        right: 10px;
+        display:none;
+    }    
+    .top-disp{
+        display: block;
+    }
+    #section5 .row i:hover{
+        color:black;
+    }
+    #top-btn{
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <div class="btn btn-primary top-arrow" id="top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <section id="section1">
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark mx-3" style="font-size: large;">
+                <a class="navbar-brand" href="#" style="font:2em oblique;">Nice Computers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="./index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">about</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="./services.html">services</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          <div class="br-container mt-5 pt-5 mx-4">
+               <a href="./index.html">home</a>/contact
+          </div>
+        </div>  
+    </section>
+    <section id="section2">
+        <div class="container">
+            <form action="" method="" id="my-form">
+            <div class="row">
+                <div class="col-sm-6">
+                   <div class="form-group">
+                       <input type="text" name="Username" placeholder="Your Name" class="form-control" autocomplete="off"><br>
+                       <input type="email" name="email" placeholder="Your e-mail address" class="form-control" autocomplete="off"><br>
+                       <label for="msg" class="form-control-label ml-2">Message</label>
+                       <textarea name="msg" cols="30" rows="6" class="form-control p-0" id="msg" autocomplete="off"></textarea><br>
+                       <div class="text-center">
+                       <button class="btn btn-primary">Submit</button>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-sm-6">
+                   <ul style="list-style:none;margin-left: 0px; ">
+                    <li style="background-color:#d9ba6a;"><i class="fa fa-road p-2 " aria-hidden="true" style="font-size:1em;color:white;"></i>Vykuntapuram</li>
+                       <li style="background-color:#d9ba6a;"><i class="fa fa-train p-2 " aria-hidden="true" style="font-size:1em;color:white;"></i>Near Railway Station</li>
+                       <li style="background-color:#d9ba6a;"><i class="fa fa-map-marker p-2" aria-hidden="true" style="font-size:1em;color:white;"></i>Kavali - 524201</li>
+                       <li style="background-color:#d9ba6a;"><i class="fa fa-address-card p-2" aria-hidden="true" style="font-size:1em;color:white;"></i>Nellore District</li>
+                       <li style="background-color:#d9ba6a;"><i class="fa fa-mail-bulk p-2" aria-hidden="true" style="font-size:1em;color:white;"></i>Andhra Pradesh</li>
+                       <li style="background-color:#d9ba6a;"><i class="fa fa-globe p-2" aria-hidden="true" style="font-size:1em;color:white;"></i>India</li>
+                   </ul> 
+                   <i class="fa fa-envelope p-1 mx-5 btn  btn-outline-success" aria-hidden="true">&nbsp;&nbsp;&nbsp;g-mail : Nicecomputers@gmail.com</i><br>
+                   <i class="fa fa-phone-square p-1 mx-5 btn btn-outline-success" aria-hidden="true">&nbsp;&nbsp;&nbsp;Phone no : +91-8989898989</i>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+    <script src="./contact.js"></script>
+    <section id="section3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1568.71743089148!2d79.98604395786782!3d14.921488089165507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b7bb8a3a6b0e7%3A0xb8a9e110b2616f6e!2sNice%20Embedded%20Systems!5e1!3m2!1sen!2sin!4v1613332702884!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+     </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <hr style="border-bottom: 1px solid gray;">
+             &copy; Copy rights reserved  <br>
+             Nice Computers
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY>360)
+              document.getElementById("top-btn").classList.add("top-disp");
+            if(window.scrollY<360)
+              document.getElementById("top-btn").classList.remove("top-disp");  
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
