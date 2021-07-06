@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Computers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0px;
+        padding:0px;
+    }
+    #section1{
+    
+        background-size:cover;
+        background-color:#1c1a1a;
+    }
+    #section1 .tint{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(3, 0, 0, 0.8);
+        padding: 0.5% 1%;
+    }
+    #section1 .br-container{
+        color:white;
+    }
+    #section1 .br-container a{
+        color: white;
+    }
+    #section2{
+        padding:5% 10%;
+    }
+    #section3{
+        background-color: #f4e9ce;
+        padding:5% 10%;
+    }
+    #section3 .card{
+        width:300px;
+        height: 380px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        border-radius: 20px;
+        padding: 15px;
+        background:#ecf0f3;
+        box-shadow: 3px 3px 15px #cbced1,
+                -3px -3px 15px #ffffff;
+     }
+     #section3 .card ul li{
+         font-size:1.2em;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         line-height:35px;
+     } 
+    #section5{
+        padding: 5% 10%;
+        background-color:lightgray;
+    }
+    .fab{
+        font-size: 2em;
+        margin: 5px 10px;
+    }
+    .fas{
+        font-size: 2em;
+    }
+    .top-arrow{
+        position: fixed;
+        bottom:10px;
+        right: 10px;
+        display:none;
+    }    
+    .top-disp{
+        display: block;
+    }
+    #section5 .row i:hover{
+        color:black;
+    }
+    #top-btn{
+        border-radius: 50%;
+    }
+    .media{
+        background-color:rgb(235, 229, 207);
+    }
+    .media:hover{
+        
+        background-color:gray;
+        color:white;
+        box-shadow: 4px 4px 15px black;
+    }
+   
+</style>
+<body>
+    <div class="btn btn-primary top-arrow" id="top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <section id="section1">
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark mx-3" style="font-size: large;">
+                <a class="navbar-brand" href="#" style="font:2em oblique;">Nice Computers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="./index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">about</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          <div class="br-container mt-5 pt-5 mx-4">
+               <a href="./home.html">home</a>/services
+          </div>
+        </div>  
+    </section>
+    <section id="section2">
+        <div class="container p-sm-5" style="border: solid 2px green; padding: 10px;">
+            <h3 class="text-center">Our Services</h3>
+            <hr style="border-bottom: 1px solid black;" class="w-50">
+            <p class="my-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta, ea eius inventore aspernatur. Culpa ab repudiandae expedita veniam earum voluptates!
+                Quis dicta, nulla cupiditate fuga omnis saepe autem consequuntur velit dolorem perspiciatis quo molestiae itaque eos inventore? Molestias, fugit asperiores, quisquam itaque quia debitis nostrum, ipsum ut dignissimos assumenda magnam!
+            </p>
+                <br>
+            <div class="row">
+                <div class="col-sm-4" >
+                    <div class="media " style="box-shadow: 1px 1px 7px black; padding: 20px;">
+                        <div class="media-body">
+                          <h5 class="mt-0">Languages</h5>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                        </div>
+                    </div>
+                <br><br>
+                <div class="media" style="box-shadow: 1px 1px 7px black; padding: 20px;" >
+                    <div class="media-body">
+                      <h5 class="mt-0">Web Development</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                    </div>
+                </div>
+                <br><br>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media" style="box-shadow: 1px 1px 7px black; padding: 20px;">
+                        <div class="media-body">
+                          <h5 class="mt-0">Technologies</h5>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                        </div>
+                    </div>
+                <br><br>
+                <div class="media " style="box-shadow: 1px 1px 7px black; padding: 20px;">
+                    <div class="media-body">
+                      <h5 class="mt-0">Tools</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                    </div>
+                </div>
+                <br><br>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media " style="box-shadow: 1px 1px 7px black; padding: 20px;">
+                        <div class="media-body">
+                          <h5 class="mt-0">Frame Works</h5>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                        </div>
+                    </div>
+                <br><br>
+                <div class="media " style="box-shadow: 1px 1px 7px black; padding: 20px;">
+                    <div class="media-body">
+                      <h5 class="mt-0">Operating System</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid ut ratione accusamus itaque quasi expedita fugit, totam dicta
+                    </div>
+                </div>
+                </div>
+            </div>    
+    </section>
+    <section id="section3">
+
+        <div class="container">
+            <h2 class="text-center">Course Details</h2>
+            <hr style="border-bottom: 1px solid black;" class="w-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                           Languages
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                               <li>C-Language&nbsp;&nbsp; (100 Hrs)</li>
+                               <li>C++ &nbsp;&nbsp;&nbsp; (100 Hrs)</li>
+                               <li>Java &nbsp;&nbsp;&nbsp;(100 Hrs)</li>
+                               <li>Python &nbsp;&nbsp;&nbsp; (100 Hrs)</li><br>
+                               <li><button class="btn btn-outline-danger">FEE : 3500/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                       <br>
+                    </div>
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                           Technologies
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                               <li>.Net&nbsp;&nbsp;&nbsp;&nbsp;(200 Hrs)&nbsp;&nbsp;</li>
+                               <li>Web Services&nbsp;&nbsp;&nbsp;(100 Hrs)</li>
+                               <li>Cloud Computing&nbsp;&nbsp;&nbsp;&nbsp;(70 Hrs)</li>
+                               <li>Ruby&nbsp;&nbsp;&nbsp;&nbsp;(100 Hrs)</li><br>
+                               <li><button class="btn btn-outline-danger">FEE : 5000/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                       <br>
+                    </div>
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                          Frame Works
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                             <li>Hybernates&nbsp;(100 Hrs)</li>
+                             <li>Structs&nbsp;&nbsp;&nbsp;(80 Hrs)</li>
+                             <li>Spring&nbsp;&nbsp;&nbsp;&nbsp;(100 Hrs)</li><br><br>
+                             <li><button class="btn btn-outline-danger">FEE : 5000/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                           Web Development
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                               <li>HTML 5,CSS&nbsp;&nbsp; (30 Hrs)</li>
+                               <li>Bootstrap &nbsp;&nbsp;&nbsp; (15 Hrs)</li>
+                               <li>Java Script&nbsp;&nbsp;&nbsp;(20 Hrs)</li>
+                               <li>Angular &nbsp;&nbsp;&nbsp; (20 Hrs)</li><br>
+                               <li><button class="btn btn-outline-danger">FEE : 3000/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                       <br>
+                    </div>
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                           Tools
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                               <li>Selenium &nbsp;&nbsp;&nbsp;(100 Hrs)</li>
+                               <li>Appium &nbsp;&nbsp;&nbsp;(100 Hrs)</li><br><br><br>
+                               <li><button class="btn btn-outline-danger">FEE : 6000/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                       <br>
+                    </div>
+                    <div class="col-sm-4">
+                     <div class="card">
+                         <div class="card-header text-center bg-primary text-white" style="font-weight: 500; font-size:1.3em;">
+                           Operating Systems
+                         </div>
+                         <div class="card-body text-center">
+                           <ul style="line-height:30px;list-style: none;padding:0px;" class="text-center">
+                             <li>Windows&nbsp;&nbsp;(100 Hrs)</li>
+                             <li>Linux&nbsp;&nbsp;&nbsp;(100 Hrs)</li>
+                             <li>Unix&nbsp;&nbsp;&nbsp;(100 Hrs)</li><br><br>
+                             <li><button class="btn btn-outline-danger">FEE : 8000/- </button></li>
+                           </ul>
+                           <button class="btn btn-primary">Enroll Now</button>
+                         </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <hr style="border-bottom: 1px solid gray;">
+            &copy;Copy rights reserved  <br>
+            Nice Computers
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY>360)
+              document.getElementById("top-btn").classList.add("top-disp");
+            if(window.scrollY<360)
+              document.getElementById("top-btn").classList.remove("top-disp");  
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
